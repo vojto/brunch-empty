@@ -5,8 +5,7 @@ exports.config =
       defaultExtension: 'coffee'
       joinTo:
         'javascripts/app.js': /^app/
-      order:
-        before: ['vendor/scripts/jquery.js']
+        'javascripts/vendor.js': /^vendor/
 
     stylesheets:
       defaultExtension: 'styl'
